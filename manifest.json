@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Color blind tool",
+    "version": 1.0,
+    "description": "A tool for users with color blindness to apply different color schemes to web pages.",
+    "chrome_url_overrides":{
+        "new_tab": "index.html"
+    },
+    "icons":{
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
